@@ -1,0 +1,129 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonathan Almeida</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #000000;
+            color:white;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #11141a, #000000);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .project-card {
+            transition: transform 0.2s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        footer {
+            background: #212529;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Jonathan Almeida</h1>
+            <p class="lead">Web Hosting & WordPress Specialist | Linux | cPanel/WHM | Troubleshooting | Python | Infrastructure & Technical Support</p>
+            <a href="/projects" class="btn btn-light btn-lg mt-3">View Projects</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="/media/profile.jpg" width="700" class="img-fluid rounded shadow" alt="Profile Image">
+                </div>
+
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>
+                        I have 10 years of professional experience in the web hosting industry, specializing in technical support, infrastructure troubleshooting, and website hosting environments. Throughout my career, I have worked extensively diagnosing and resolving complex issues related to websites, servers, and hosting services, consistently delivering reliable solutions and maintaining high service quality.
+                    </p>
+                    <p>   
+                        I have strong hands-on experience with cPanel/WHM (certified), along with deep knowledge of domain management, DNS configuration, databases, email services, and the core technologies that power web hosting platforms.
+                    </p> 
+                        My background also includes web development training and a development bootcamp, where I gained practical experience with PHP, JavaScript, React, Node.js, and Python. This development knowledge helps me better understand application behavior and troubleshoot issues at both the application and server levels.
+                    <p>
+                        In addition, I have been expanding my expertise in Linux server administration and am currently studying for the LPIC-1 certification. My experience includes configuring and maintaining services such as Apache, MySQL, and PHP, as well as working with hosting control panels including CyberPanel, VestaCP, CentOS Web Panel, cPanel, and Webmin.
+                    </p>    
+                        Working for a decade in the same company has allowed me to develop strong problem-solving skills, autonomy, and responsibility, often operating in environments that require quick diagnostics and effective solutions to ensure service availability and customer satisfaction.
+                    <p>
+                        I am passionate about Linux, hosting infrastructure, automation, and continuous learning, always seeking to deepen my technical expertise and contribute to stable and efficient systems.
+                    </p>
+
+                    <p>
+                        This portfolio showcases some of my projects and achievements.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2>Contact</h2>
+            <p>Email: johh.almeida@gmail.com</p>
+            <p>GitHub: https://github.com/jonathanhost</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Jonathan de Almeida - Built with Django & Bootstrap</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
